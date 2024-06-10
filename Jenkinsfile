@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('build project'){
             steps{
-                git url:'https://github.com/chethana-crypto/finance_proj.git'.
+                git url:'https://github.com/chethana-crypto/finance_proj'.
                 sh 'mvn clean package'
               
             }
